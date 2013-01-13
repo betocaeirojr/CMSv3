@@ -1,0 +1,355 @@
+html {
+  height: 100%;
+}
+body {
+  color: #003;
+  background-color: #CCDDFF;
+  font-family: Tahoma,Arial,sans-serif;
+  font-size: 12px;
+  margin: 0;
+  height: 100%;
+}
+ul {
+  color: #009;
+  background-color: #CFC;
+  font-size: 1em;
+  border: 3px solid #3C3;
+  list-style-type: none;
+  margin: 2em;
+  margin-left: -.5em;
+  padding-left: 0;
+  width: 100%;
+  padding: 5px;
+}
+a {
+  font-weight: bold;
+  font-family: Arial,Helvetica,sans-serif;
+  text-decoration: none;
+}
+a:active {
+  color: #000099;
+}
+a:hover {
+  color: #0000FF;
+}
+a:link {
+  color: #000099;
+}
+a:visited {
+  color: $000099;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  padding-bottom: 4px;
+}
+.breadcrumb {
+  color: #666;
+}
+h4.breadcrumb .bcsep {
+  color: #F30;
+}
+div.body,div.bodysmall {
+  position: relative;
+  left: 50%;
+  padding: 25px;
+  width:800px;
+  margin-left: -400px;
+  margin-top: 2%;
+  background-color: #FFF8EE;
+  border: 2px solid #609;
+}
+div.bodysmall {
+  width:400px;
+  margin-left: -200px;
+}
+div.copyright {
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: center;
+  position: relative;
+  height: 4%;
+  left: 50%;
+  width: 400px;
+  padding: 0 25px;
+  margin-left: -200px;
+  margin-top: 0px;
+}
+#header {
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+  border-bottom: 1px solid #000;
+}
+#sitetitle {
+  font-family: Comic Sans MS,Verdana,Arial,sans-serif;
+  color: #609;
+  padding: 0;
+  margin: 0;
+}
+#subtitle {
+  font-family: Comic Sans MS,Verdana,Arial,sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: #093;
+  padding: 0px 0px 2px 0px;
+}
+#searchbar {
+  text-align: center;
+  padding: 2px;
+  margin: 0;
+  float: right;
+}
+#subheader {
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  border-bottom: 1px solid #000;
+}
+#navigation {
+  text-align: left;
+}
+#login {
+  text-align: right;
+  float: right;
+}
+.forumtable {
+  background-color: #EEEEEE;
+  border: 2px solid #FF9900;
+  width: 100%;
+  margin: 0 0 5 0;
+}
+.forumname {
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
+}
+.forumdesc {
+  font-size: 10px;
+  color: #666;
+  padding: 0px 0px 0px 0px;
+}
+
+th,td {
+  padding: 1px 5px;
+  margin: 0;
+  font-size: 12px;
+  vertical-align: top;
+}
+.forumtable th {
+  text-align: left;
+  color: #FFFF00;
+  background-color: #333399;
+}
+.forumtable td{
+  padding: 3px 5px 5px 5px;
+}
+.forumtable .row1 {
+  background-color: #FFFFFF;
+}
+.forumtable .row2 {
+  background-color: #EEEEEE;
+}
+.firstcolumn{
+  width: 50%;
+}
+.center {
+  text-align: center;
+}
+.centersmall {
+  text-align: center;
+  font-size: 10px;
+}
+.author{
+  font-weight: bold;
+  width: 15%;
+  text-align: left;
+}
+.post {
+  width: 85%;
+  text-align: left;
+}
+.textsmall {
+  font-size: 10px;
+}
+.authorfooter {
+  white-space: nowrap;
+  font-size: 10px;
+  vertical-align: bottom;
+}
+.threadfooter {
+  padding: 5px;
+  text-align: right;
+}
+th.forum {
+  width: 70%;
+  text-align: left;
+}
+th.threadcount {
+  width: 10%;
+}
+th.moderator {
+  width: 20%;
+}
+th.thread {
+  text-align: left;
+  width: 50%;
+}
+th.starter {
+  text-align: center;
+  width: 20%;
+}
+th.replies {
+  text-align: center;
+  width: 10%;
+}
+th.lastpost {
+  text-align: center;
+  width: 20%;
+}
+th.replacement,th.template{
+  text-align: left;
+  width: 45%;
+}
+th.action{
+  text-align: center;
+  width: 10%;
+}
+td.thread {
+  width: 50%;
+}
+td.starter {
+  text-align: center;
+  width: 20%;
+}
+td.replies {
+  text-align: center;
+  width: 10%;
+}
+td.lastpost {
+  text-align: center;
+  width: 20%;
+  font-size: 10px;
+}
+.sig {
+  border-top: 1px dashed #000;
+  padding: 10;
+  font-size: 10px;
+}
+.smallNote {
+  padding: 10 0;
+  color: #96C;
+  font-size: 10px;
+}
+.buttonlink,.submit,.confirm {
+  position: relative;
+  border: 2px solid #009;
+  background-color: #FC6;
+  color: #006;
+  padding: 1 8;
+  margin: 0 3;
+  font-size: 10px;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+}
+.pagenextlink,.pagenextdead,
+.pageprevlink,.pageprevdead,
+.pagenumlink,.pagenumdead {
+  cursor: pointer;
+  padding: 0 4;
+  margin: 5 1;
+  font-size: 9px;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+}
+.pagenextlink,.pageprevlink,.pagenumlink {
+  border: 2px solid #009;
+  background-color: #FC6;
+  color: #009;
+}
+.pagenextdead,.pageprevdead,.pagenumdead {
+  cursor: default;
+  border: 2px solid #000;
+  background-color: #AAA;
+  color: #FFF8EE;
+}
+.submit {
+  font-size: 12px;
+  padding: 0 5;
+  margin: 0;
+}
+.buttonBarright {
+  text-align: right;
+  margin: 0;
+  padding: 4 0 4 0;
+}
+.buttonBarleft {
+  text-align: left;
+  margin: 0;
+  padding: 4 0 4 0;
+}
+.mono {
+  font-family: Courier New,Courier,monospace;
+}
+#requestConfirmWarn,
+#requestConfirmInfo,
+#requestConfirmNote {
+  position: relative;
+  left: 50%;
+  margin-left: -200px;
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+#requestConfirmWarn {
+  background-color: #FFCCCC;
+  border: 5px solid #FF6666;
+}
+#requestConfirmInfo {
+  background-color: #CCFFCC;
+  border: 5px solid #66FF66;
+}
+#requestConfirmNote {
+  background-color: #CCCCFF;
+  border: 5px solid #6666FF;
+}
+.searchHeader {
+  background-color: #000099;
+  color: #FF0;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2;
+  margin: 0;
+}
+#searchResults {
+  padding: 0px 20px;
+  border: 2px solid #FF9900;
+}
+p.searchSubject {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+p.searchBody {
+  padding: 3px 0px 5px 10px;
+  margin: 0;
+}
+.newpost {
+  color: #FF3399;
+  font-size: 14px;
+  font-weight: bold;
+}
+.postlink {
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
